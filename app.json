@@ -1,56 +1,19 @@
 {
   "expo": {
     "name": "Kingdom United",
-    "slug": "KingdomUnitedApp",
+    "slug": "kingdom-united-test",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#2c3e50"
-    },
-    "assetBundlePatterns": [
-      "**/*"
+    "platforms": [
+      "android",
+      "web"
     ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.kingdomunited.prayerapp",
-      "buildNumber": "1",
-      "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "This app uses your location to connect you with local prayer requests in your area.",
-        "NSUserTrackingUsageDescription": "This app would like to track activity across other companies' apps and websites to provide personalized prayer content."
-      }
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#2c3e50"
-      },
-      "package": "com.kingdomunited.prayerapp",
-      "versionCode": 1,
-      "compileSdkVersion": 35,
-      "targetSdkVersion": 35,
-      "permissions": [
-        "android.permission.INTERNET",
-        "android.permission.ACCESS_NETWORK_STATE"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "package": "com.kingdomunited.prayerapp"
     },
     "extra": {
       "eas": {
-        "projectId": "005eb793-93d7-426a-b11d-5f3ef92cb0c3"
+        "projectId": "1037d70d-f77e-4f72-bda4-d35bca8cd944"
       }
-    },
-    "owner": "nak1411",
-    "privacy": "public",
-    "description": "Kingdom United is a faith-based mobile application that connects believers in local communities for prayer support and spiritual encouragement.",
-    "primaryColor": "#2c3e50",
-    "backgroundColor": "#2c3e50"
+    }
   }
 }
